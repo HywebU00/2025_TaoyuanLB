@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1-1.歡迎使用-靠卡掃描</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- popup start -->
+    <div class="popup">
+      <div class="popupOverlay"></div>
+      <div class="popupBlock">
+        <div class="popupContent">
+          <div class="text">
+            感應或掃描錯誤，請重新操作。
+          </div>
+        </div>
+        <div class="btn">
+          <a href="#" class="yellowBtn _close">確認</a>
+        </div>
+      </div>
+    </div>
+    <!-- popup end -->
+    <div class="wrap">
+      <header class="header">
+        <div class="logo"><img src="images/logo.svg" alt="" /></div>
+      </header>
+      <div class="content">
+        <div class="title">歡迎使用預約書查詢機台</div>
+        <!-- scan start -->
+        <div class="scanBlock">
+          <div class="mask">
+            <div class="hand handLeft">
+              <img src="images/hand1.png" alt="" />
+            </div>
+            <div class="hand handRight">
+              <img src="images/hand4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- scan end -->
+        <div class="tipText"><span>請靠卡感應或掃描借閱證</span></div>
+      </div>
+      <!-- <div class="btn">
+        <a href="1-2.User_select.html" class="greyBtn">返回</a>
+      </div> -->
+    </div>
+    <script>
+      const overlay = document.querySelector(".popupOverlay");
+      const popup = document.querySelector(".popup");
+      const close = document.querySelector(".popup ._close");
+
+      // 點擊 overlay 時隱藏 popup
+      overlay.addEventListener("click", function () {
+        popup.style.display = "none";
+      });
+
+      // 點擊 close 按鈕時隱藏 popup
+      close.addEventListener("click", function () {
+        popup.style.display = "none";
+      });
+    </script>
+  </body>
+</html>

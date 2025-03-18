@@ -1130,6 +1130,10 @@ body .popup .popupOverlay {
 }
 .detailBlock._test table tbody tr td {
   padding: 30px 16px;
+  line-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   box-sizing: border-box;
 }
 .detailBlock._test table tbody tr td.room {

@@ -352,8 +352,6 @@ body .popup .popupOverlay {
   width: 100%;
   box-sizing: border-box;
   padding: 30px 60px;
-  display: flex;
-  align-items: center;
 }
 .header .logo {
   height: 70px;

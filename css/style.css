@@ -263,8 +263,8 @@ body {
   overflow-y: hidden;
 }
 body .wrap {
-  max-width: 1680px;
-  height: 1050px;
+  max-width: 1920px;
+  height: 1080px;
   margin: 0 auto;
   position: relative;
 }

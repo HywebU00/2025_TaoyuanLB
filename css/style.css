@@ -1183,17 +1183,17 @@ body .popup .popupOverlay {
 .detailBlock._test table td.tdLeft {
   text-align: left;
 }
-.detailBlock._test table .checkBox {
-  width: 90px;
-}
+.detailBlock._test table .checkBox,
 .detailBlock._test table .SerialNum {
   width: 90px;
+  max-width: 90px;
 }
-.detailBlock._test table .callNum {
+.detailBlock._test table .callNum,
+.detailBlock._test table .bookBarcode,
+.detailBlock._test table .publisher,
+.detailBlock._test table .location {
   width: 165px;
-}
-.detailBlock._test table .bookBarcode {
-  width: 165px;
+  max-width: 165px;
 }
 .detailBlock._test table .bookName {
   width: 377px;
@@ -1202,12 +1202,6 @@ body .popup .popupOverlay {
 .detailBlock._test table .author {
   width: 370px;
   max-width: 370px;
-}
-.detailBlock._test table .publisher {
-  width: 165px;
-}
-.detailBlock._test table .location {
-  width: 165px;
 }
 
 input[type=checkbox] {

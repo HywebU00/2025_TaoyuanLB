@@ -1189,16 +1189,15 @@ body .popup .popupOverlay {
   width: 90px;
   max-width: 90px;
 }
-.detailBlock._test table .callNum,
 .detailBlock._test table .bookBarcode,
-.detailBlock._test table .publisher,
+.detailBlock._test table .deadline,
 .detailBlock._test table .location {
   width: 165px;
   max-width: 165px;
 }
 .detailBlock._test table .bookName {
-  width: 377px;
-  max-width: 377px;
+  width: 530px;
+  max-width: 530px;
 }
 .detailBlock._test table .author {
   width: 370px;

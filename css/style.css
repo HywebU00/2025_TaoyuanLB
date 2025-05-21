@@ -425,6 +425,23 @@ body .popup .popupOverlay {
   color: #524843;
 }
 
+a.languageSwitch {
+  position: absolute;
+  width: 350px;
+  right: 70px;
+  top: 24x;
+  color: #fff;
+  background: linear-gradient(to right, #383128 0%, #8E0E00 100%);
+  border-radius: 50px;
+  height: 91px;
+  line-height: 91px;
+  font-size: 42px;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
 .content {
   height: 624px;
   margin-bottom: 56px;

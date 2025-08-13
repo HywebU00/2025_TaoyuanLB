@@ -442,6 +442,26 @@ a.languageSwitch {
   text-align: center;
 }
 
+.userFunction {
+  position: absolute;
+  color: #47352e;
+  right: 180px;
+  display: flex;
+  font-size: 26px;
+}
+.userFunction .logoutBtn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-left: 10px;
+  color: #fff;
+  border: none;
+  background: url(../images/btnbg05.png) 0 0 repeat-x;
+  border-radius: 50px;
+}
+.userFunction .logoutBtn:hover, .userFunction .logoutBtn:focus {
+  background: #47352e;
+}
+
 .content {
   height: 624px;
   margin-bottom: 56px;
@@ -476,6 +496,15 @@ a.languageSwitch {
 }
 .content .subTitle + .btn a:only-child {
   margin: 0;
+}
+.content .countDown {
+  position: absolute;
+  font-size: 38px;
+  right: 180px;
+  color: #47352e;
+}
+.content .countDown span {
+  margin-right: 10px;
 }
 
 .stepBlock {

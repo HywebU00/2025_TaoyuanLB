@@ -343,6 +343,17 @@ body .popup .popupBlock .popupContent .text {
 body .popup .popupBlock .popupContent + .btn {
   gap: 35px;
 }
+body .popup .popupBlock::-webkit-scrollbar {
+  width: 12px; /* 捲軸寬度 */
+}
+body .popup .popupBlock::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 0 20px 0 0; /* 把軌道整個往左縮 20px */
+}
+body .popup .popupBlock::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 6px;
+}
 body .popup .popupOverlay {
   background: rgba(0, 0, 0, 0.47);
   position: absolute;

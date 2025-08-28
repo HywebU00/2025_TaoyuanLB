@@ -302,7 +302,10 @@ body .popup {
   z-index: 999;
 }
 body .popup .popupBlock {
-  width: 1080px;
+  width: 90vw;
+  max-height: 90vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
   background: #fff;
   border-radius: 38px;
   box-shadow: 0 26px 30px rgba(0, 0, 0, 0.28);
@@ -312,7 +315,6 @@ body .popup .popupBlock {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 body .popup .popupBlock .close {
   position: absolute;

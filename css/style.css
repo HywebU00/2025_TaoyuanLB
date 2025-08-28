@@ -304,17 +304,30 @@ body .popup {
 body .popup .popupBlock {
   width: 90vw;
   max-height: 90vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
   background: #fff;
   border-radius: 38px;
   box-shadow: 0 26px 30px rgba(0, 0, 0, 0.28);
   position: relative;
   box-sizing: border-box;
-  padding: 100px 85px;
+  padding: 100px 55px;
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+body .popup .popupBlock .scrollwarp {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body .popup .popupBlock .scrollwarp::-webkit-scrollbar {
+  width: 12px; /* 捲軸寬度 */
+}
+body .popup .popupBlock .scrollwarp::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 0 20px 0 0; /* 把軌道整個往左縮 20px */
+}
+body .popup .popupBlock .scrollwarp::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 6px;
 }
 body .popup .popupBlock .close {
   position: absolute;
@@ -342,17 +355,6 @@ body .popup .popupBlock .popupContent .text {
 }
 body .popup .popupBlock .popupContent + .btn {
   gap: 35px;
-}
-body .popup .popupBlock::-webkit-scrollbar {
-  width: 12px; /* 捲軸寬度 */
-}
-body .popup .popupBlock::-webkit-scrollbar-track {
-  background: transparent;
-  margin: 0 20px 0 0; /* 把軌道整個往左縮 20px */
-}
-body .popup .popupBlock::-webkit-scrollbar-thumb {
-  background: #999;
-  border-radius: 6px;
 }
 body .popup .popupOverlay {
   background: rgba(0, 0, 0, 0.47);
